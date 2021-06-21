@@ -10,7 +10,13 @@ const NavigationBar = () => {
   return (
     <Router>
       <div className="NavigationBar">
-        <Navbar bg="dark" variant="dark" expand="lg">
+        <Navbar
+          collapseOnSelect
+          expand="lg"
+          bg="dark"
+          variant="dark"
+          fixed="top"
+        >
           <Container>
             <Navbar.Brand as={Link} to="/home">
               JJ
@@ -18,13 +24,13 @@ const NavigationBar = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link as={Link} to="/about">
+                <Nav.Link eventKey="1" as={Link} to="/about">
                   About
                 </Nav.Link>
-                <Nav.Link as={Link} to="/projects">
+                <Nav.Link eventKey="2" as={Link} to="/projects">
                   Projects
                 </Nav.Link>
-                <Nav.Link as={Link} to="/contact">
+                <Nav.Link eventKey="3" as={Link} to="/contact">
                   Contact
                 </Nav.Link>
               </Nav>
