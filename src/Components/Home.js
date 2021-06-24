@@ -1,9 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import developerPic from "./femaleDeveloper.svg";
+import developerPic from "../femaleDeveloper.svg";
 import { Link } from "react-router-dom";
-
-// import Contact from "./Contact";
 
 const Home = () => {
   return (
@@ -15,17 +13,17 @@ const Home = () => {
               <img
                 src={developerPic}
                 alt="Female developer"
-                className="developerPic"
+                className="illustrations"
               />
             </Col>
             <Col sm="8" className="align-content">
               <h1>
-                <strong>Jyotsna Jose</strong>
+                <strong>Hello, I'm Jyotsna Jose!</strong>
               </h1>
               <h2>Front-end Developer based in Minnesota</h2>
-              <br />
+
               <Link to="/contact">
-                <Button variant="primary">Contact</Button>
+                <Button className="button">Contact</Button>
               </Link>
             </Col>
           </Row>

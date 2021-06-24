@@ -14,7 +14,8 @@ const NavigationBar = () => {
         <Navbar
           collapseOnSelect
           expand="lg"
-          bg="dark"
+          // bg="dark"
+          className="nav-color"
           variant="dark"
           fixed="top"
         >
