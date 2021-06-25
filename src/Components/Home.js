@@ -22,6 +22,9 @@ const Home = () => {
               </h1>
               <h2>Front-end Developer based in Minnesota</h2>
 
+              <Link to="/projects">
+                <Button className="button">Projects</Button>
+              </Link>
               <Link to="/contact">
                 <Button className="button">Contact</Button>
               </Link>

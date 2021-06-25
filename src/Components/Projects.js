@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import { projectData } from "../projectData";
 
 const Projects = () => {
@@ -13,34 +13,25 @@ const Projects = () => {
             <h2>{project.heading}</h2>
             <Container>
               <Row>
-                <Col sm="6">
+                <Col sm="6" className="align-content">
                   <img
                     src={project.image}
                     alt={project.heading}
                     className="project-screenshots"
                   />
                 </Col>
-                <Col sm="6">
+                <Col sm="6" className="align-content">
                   <p>{project.description}</p>
                   <p>{project.skills}</p>
                 </Col>
               </Row>
+              <Button className="button" href={project.netlify} target="_blank">
+                Go to Project
+              </Button>
             </Container>
           </section>
         );
       })}
-
-      {/* <h2>Weather App</h2>
-        <Container>
-          <Row>
-            <Col sm="8">
-              <img src={weatherProj} alt="" className="project-screenshots" />
-            </Col>
-            <Col sm="4">
-              <p>Description and Skills used</p>
-            </Col>
-          </Row>
-        </Container> */}
     </div>
   );
 };
