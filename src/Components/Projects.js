@@ -5,33 +5,39 @@ import { projectData } from "../projectData";
 const Projects = () => {
   return (
     <div className="Projects">
-      <h1>Projects</h1>
+      <>
+        <h1>Projects</h1>
 
-      {projectData.map((project) => {
-        return (
-          <section key={project.id}>
-            <h2>{project.heading}</h2>
-            <Container>
-              <Row>
-                <Col sm="6" className="align-content">
-                  <img
-                    src={project.image}
-                    alt={project.heading}
-                    className="project-screenshots"
-                  />
-                </Col>
-                <Col sm="6" className="align-content">
-                  <p>{project.description}</p>
-                  <p>{project.skills}</p>
-                </Col>
-              </Row>
-              <Button className="button" href={project.netlify} target="_blank">
-                Go to Project
-              </Button>
-            </Container>
-          </section>
-        );
-      })}
+        {projectData.map((project) => {
+          return (
+            <section key={project.id}>
+              <h2>{project.heading}</h2>
+              <Container>
+                <Row>
+                  <Col sm="6" className="align-content">
+                    <img
+                      src={project.image}
+                      alt={project.heading}
+                      className="project-screenshots"
+                    />
+                  </Col>
+                  <Col sm="6" className="align-content">
+                    <p>{project.description}</p>
+                    <p>{project.skills}</p>
+                  </Col>
+                </Row>
+                <Button
+                  className="button"
+                  href={project.netlify}
+                  target="_blank"
+                >
+                  Go to Project
+                </Button>
+              </Container>
+            </section>
+          );
+        })}
+      </>
     </div>
   );
 };

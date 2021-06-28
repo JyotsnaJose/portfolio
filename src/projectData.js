@@ -4,7 +4,7 @@ export const projectData = [
     heading: "Dictionary",
     image: "/images/dictionaryProj_screenshot.png",
     description: "Dictionary Project Description",
-    skills: "Buit with HTML, CSS, React js",
+    skills: "Built with HTML, CSS, React js",
     netlify: "https://dictionary-react-jyotsna.netlify.app",
   },
   {
@@ -12,7 +12,7 @@ export const projectData = [
     heading: "WeatherForecast",
     image: "/images/weatherProj_screenshot.png",
     description: "Weather Project Description",
-    skills: "Buit with HTML, CSS, React js",
+    skills: "Built with HTML, CSS, React js",
     netlify: "https://weather-react-jyotsna.netlify.app",
   },
 ];

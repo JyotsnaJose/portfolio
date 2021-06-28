@@ -24,3 +24,20 @@ body {
   border-style: groove;
   padding: 2%;
 }
+.icons {
+  color: #425a97;
+  font-size: 30px;
+}
+.contact-section {
+  margin: 5% 0;
+  text-align: center;
+}
+.Footer {
+  margin-top: 15%;
+  text-align: center;
+}
+.footer-icons {
+  color: #e797a4;
+  font-size: 25px;
+  margin: 10px;
+}
