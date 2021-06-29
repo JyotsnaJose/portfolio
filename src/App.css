@@ -41,3 +41,31 @@ body {
   font-size: 25px;
   margin: 10px;
 }
+.myPic {
+  max-width: 80%;
+  max-height: 80%;
+  border-style: double;
+  border-width: thick;
+  border-color: #e4a9b3;
+  border-radius: 6px;
+}
+.myPic_small {
+  max-width: 20%;
+  max-height: 20%;
+  border-radius: 50%;
+  margin-right: 5%;
+}
+.certificates {
+  max-width: 100%;
+  max-height: 100%;
+  border-style: double;
+  border-width: thick;
+  border-color: #d9e1f3;
+  border-radius: 6px;
+  margin: 2% 0;
+}
+@media (max-width: 540px) {
+  .myPic {
+    display: none;
+  }
+}
