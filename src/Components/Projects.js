@@ -31,7 +31,7 @@ const Projects = () => {
                   href={project.netlify}
                   target="_blank"
                 >
-                  Go to Project
+                  View Project
                 </Button>
               </Container>
             </section>

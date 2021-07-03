@@ -16,7 +16,9 @@ const NavigationBar = () => {
         >
           <Container>
             <LinkContainer to="/">
-              <Navbar.Brand>JJ</Navbar.Brand>
+              <Navbar.Brand>
+                <i className="fas fa-home"></i>
+              </Navbar.Brand>
             </LinkContainer>
 
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />

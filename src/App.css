@@ -1,5 +1,14 @@
 body {
   padding-top: 20%;
+  padding-bottom: 100px;
+}
+h1 {
+  text-align: center;
+  font-weight: bold !important;
+  color: #425a97;
+}
+.App {
+  font-family: "Ubuntu", sans-serif;
 }
 .align-content {
   text-align: center;
@@ -33,8 +42,15 @@ body {
   text-align: center;
 }
 .Footer {
-  margin-top: 15%;
   text-align: center;
+  border-top: #d9e1f3;
+  border-top-style: solid;
+  position: fixed;
+  /* padding: 10px 10px 0px 10px; */
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: white;
 }
 .footer-icons {
   color: #e797a4;

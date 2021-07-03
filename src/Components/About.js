@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-// import myphoto from "../../public/images/myphoto.png";
+import { Container, Row, Col, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -28,7 +28,11 @@ const About = () => {
                 development with React JS and have done several projects as part
                 of the same.
               </p>
+              <Link to="/projects">
+                <Button className="button">Go to Projects</Button>
+              </Link>
             </Col>
+
             <Col sm="6">
               <img
                 src="/images/myphoto.png"

@@ -5,7 +5,7 @@ export const projectData = [
     image: "/images/dictionaryProj_screenshot.png",
     description:
       "Dictionary Project provides the meaning of the latest word that is being searched.",
-    skills: "Built with HTML, CSS, React js",
+    skills: "Built with HTML, CSS, React js and hosted in Netlify",
     netlify: "https://dictionary-react-jyotsna.netlify.app",
   },
   {
@@ -14,7 +14,7 @@ export const projectData = [
     image: "/images/weatherProj_screenshot.png",
     description:
       "Weather forecast App provides the current and 6-days forecast weather for the searched city/current location.",
-    skills: "Built with HTML, CSS, React js",
+    skills: "Built with HTML, CSS, React js and hosted in Netlify",
     netlify: "https://weather-react-jyotsna.netlify.app",
   },
 ];
